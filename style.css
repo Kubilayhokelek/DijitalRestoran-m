@@ -273,29 +273,29 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 
 /* ===== ADVANTAGES ===== */
 .advantages { background: #fff; }
-.adv-wrapper {
+.fayda-wrapper {
   display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
 }
-.adv-left .section-badge { margin-bottom: 10px; }
-.adv-left h2 {
+.fayda-left .section-badge { margin-bottom: 10px; }
+.fayda-left h2 {
   font-size: clamp(1.6rem, 2.5vw, 2.2rem);
   font-weight: 800; color: #1a1a2e; line-height: 1.25; margin-bottom: 32px;
 }
-.adv-list { display: flex; flex-direction: column; gap: 24px; }
-.adv-item { display: flex; gap: 16px; }
-.adv-check-icon {
+.fayda-list { display: flex; flex-direction: column; gap: 24px; }
+.fayda-item { display: flex; gap: 16px; }
+.fayda-check-icon {
   width: 32px; height: 32px; min-width: 32px;
   background: linear-gradient(135deg,#ff6b35,#f7941d);
   color: #fff; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-weight: 800; font-size: .9rem; margin-top: 2px;
 }
-.adv-text h4 { font-size: 1rem; font-weight: 700; color: #1a1a2e; margin-bottom: 6px; }
-.adv-text p { font-size: .875rem; color: #6b7280; line-height: 1.65; }
+.fayda-text h4 { font-size: 1rem; font-weight: 700; color: #1a1a2e; margin-bottom: 6px; }
+.fayda-text p { font-size: .875rem; color: #6b7280; line-height: 1.65; }
 
-.adv-right { position: relative; }
-.adv-visual-wrap { position: relative; }
-.adv-orange-circle {
+.fayda-right { position: relative; }
+.fayda-visual-wrap { position: relative; }
+.fayda-orange-circle {
   width: 380px; height: 380px; border-radius: 50%;
   background: linear-gradient(135deg, rgba(255,107,53,.15), rgba(247,148,29,.1));
   border: 2px solid rgba(255,107,53,.2);
@@ -488,9 +488,9 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
   .hero-visual { display: none; }
   .why-grid { grid-template-columns: repeat(2, 1fr); }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
-  .adv-wrapper { grid-template-columns: 1fr; gap: 48px; }
-  .adv-right { order: -1; }
-  .adv-orange-circle { width: 300px; height: 300px; }
+  .fayda-wrapper { grid-template-columns: 1fr; gap: 48px; }
+  .fayda-right { order: -1; }
+  .fayda-orange-circle { width: 300px; height: 300px; }
   .stats-grid { width: 230px; gap: 12px; }
   .testimonials-grid { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
